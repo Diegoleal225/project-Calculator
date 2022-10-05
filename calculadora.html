@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./assets/style/calculadora.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+</head>
+<body>
+    <div class="container-align">
+        <h1 class="title">Calculadora</h1>
+        <input type="text" class="result">
+        <form accept="%" method="get">
+            <div class="grid-button">
+                <div class="container-button"> 
+                    <button type="submit" class="button-ac" >AC</button>
+                    <button type="submit" class="button-c">C</button>
+                    <button type="submit" class="button-num">(</button>
+                    <button type="submit" class="button-num">)</button>
+                    <button type="submit" class="button-num">/</button>
+                </div>
+                <div class="container-button">      
+                    <button type="submit"  class="button-num">7</button>
+                    <button type="submit"  class="button-num">8</button>
+                    <button type="submit"  class="button-num">9</button>
+                    <button type="submit"  class="button-x">X</button>
+                </div> 
+                <div class="container-button">
+                    <button type="submit"  class="button-num">4</button>
+                    <button type="submit"  class="button-num">5</button>
+                    <button type="submit"  class="button-num">6</button>
+                    <button type="submit"  class="button-num">-</button>
+                </div>
+                <div class="container-button">
+                    <button type="submit" class="button-num">1</button>
+                    <button type="submit" class="button-num">2</button>
+                    <button type="submit" class="button-num">3</button>
+                    <button type="submit" class="button-num">+</button>
+                </div>
+                <div class="container-button">
+                    <button type="submit" class="button-num" id="button-0">0</button>
+                    <button type="submit" class="button-num">.</button>
+                    <button type="submit" class="button">=</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="./assets/scripts/calculadora.js"></script>
+</body>
+</html>

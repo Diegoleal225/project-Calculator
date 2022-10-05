@@ -1,0 +1,133 @@
+:root {
+    --default: #3D004C;
+}
+* {
+    padding: 0;
+    margin: 0;
+    transition: 300ms ease-in-out;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--default);
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='600' y1='25' x2='600' y2='777'%3E%3Cstop offset='0' stop-color='%233D004C'/%3E%3Cstop offset='1' stop-color='%233E016C'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='650' y1='25' x2='650' y2='777'%3E%3Cstop offset='0' stop-color='%233e004f'/%3E%3Cstop offset='1' stop-color='%233a0163'/%3E%3C/linearGradient%3E%3ClinearGradient id='c' gradientUnits='userSpaceOnUse' x1='700' y1='25' x2='700' y2='777'%3E%3Cstop offset='0' stop-color='%233e0052'/%3E%3Cstop offset='1' stop-color='%2335025a'/%3E%3C/linearGradient%3E%3ClinearGradient id='d' gradientUnits='userSpaceOnUse' x1='750' y1='25' x2='750' y2='777'%3E%3Cstop offset='0' stop-color='%233f0055'/%3E%3Cstop offset='1' stop-color='%23310252'/%3E%3C/linearGradient%3E%3ClinearGradient id='e' gradientUnits='userSpaceOnUse' x1='800' y1='25' x2='800' y2='777'%3E%3Cstop offset='0' stop-color='%233f0058'/%3E%3Cstop offset='1' stop-color='%232c0249'/%3E%3C/linearGradient%3E%3ClinearGradient id='f' gradientUnits='userSpaceOnUse' x1='850' y1='25' x2='850' y2='777'%3E%3Cstop offset='0' stop-color='%233f005b'/%3E%3Cstop offset='1' stop-color='%23280240'/%3E%3C/linearGradient%3E%3ClinearGradient id='g' gradientUnits='userSpaceOnUse' x1='900' y1='25' x2='900' y2='777'%3E%3Cstop offset='0' stop-color='%233f005e'/%3E%3Cstop offset='1' stop-color='%23230238'/%3E%3C/linearGradient%3E%3ClinearGradient id='h' gradientUnits='userSpaceOnUse' x1='950' y1='25' x2='950' y2='777'%3E%3Cstop offset='0' stop-color='%233f0160'/%3E%3Cstop offset='1' stop-color='%231e0230'/%3E%3C/linearGradient%3E%3ClinearGradient id='i' gradientUnits='userSpaceOnUse' x1='1000' y1='25' x2='1000' y2='777'%3E%3Cstop offset='0' stop-color='%233f0163'/%3E%3Cstop offset='1' stop-color='%23190227'/%3E%3C/linearGradient%3E%3ClinearGradient id='j' gradientUnits='userSpaceOnUse' x1='1050' y1='25' x2='1050' y2='777'%3E%3Cstop offset='0' stop-color='%233f0166'/%3E%3Cstop offset='1' stop-color='%2314021f'/%3E%3C/linearGradient%3E%3ClinearGradient id='k' gradientUnits='userSpaceOnUse' x1='1100' y1='25' x2='1100' y2='777'%3E%3Cstop offset='0' stop-color='%233f0169'/%3E%3Cstop offset='1' stop-color='%230f0117'/%3E%3C/linearGradient%3E%3ClinearGradient id='l' gradientUnits='userSpaceOnUse' x1='1150' y1='25' x2='1150' y2='777'%3E%3Cstop offset='0' stop-color='%233E016C'/%3E%3Cstop offset='1' stop-color='%230A010F'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg %3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' x='100' width='1100' height='800'/%3E%3Crect fill='url(%23c)' x='200' width='1000' height='800'/%3E%3Crect fill='url(%23d)' x='300' width='900' height='800'/%3E%3Crect fill='url(%23e)' x='400' width='800' height='800'/%3E%3Crect fill='url(%23f)' x='500' width='700' height='800'/%3E%3Crect fill='url(%23g)' x='600' width='600' height='800'/%3E%3Crect fill='url(%23h)' x='700' width='500' height='800'/%3E%3Crect fill='url(%23i)' x='800' width='400' height='800'/%3E%3Crect fill='url(%23j)' x='900' width='300' height='800'/%3E%3Crect fill='url(%23k)' x='1000' width='200' height='800'/%3E%3Crect fill='url(%23l)' x='1100' width='100' height='800'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container-align {
+    border-radius: 5%;
+    box-shadow: 0 0 3px white;
+    padding: 1%;
+    margin: 4% auto;
+    background-color: rgba(78, 78, 78, 0.336);
+    width: 35vw;
+    height: 78vh;
+}
+.title {
+    border: 0 0 1px white;
+    font-size: 280%;
+    text-shadow: 0 0 3px white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 3px black;
+}
+.result {
+    border: 2px solid #3D004C;
+    border-radius: 10%;
+    color: white;
+    text-shadow: 0 0 3px var(--default);
+    background-color: rgba(255, 255, 255, 0.473);
+    text-align: center;
+    align-items: center;
+    font-size: 350%;
+    width: 98%;
+    height: auto;
+    margin-bottom: 4%;
+}
+.grid-button {
+    height: 60vh;
+    width: 100%;
+}
+.container-button{
+    display: flex;
+    width: 100%; 
+    margin-bottom: 4%;  
+    column-gap: 10px;
+}
+button {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.473);
+    color: white;
+    font-size: 280%;
+    border:none;
+    border-radius: 10%;
+    height: 8vh;
+    width: 10vw;
+}
+button:hover{ 
+    text-shadow: 0 0 5px #3D004C;
+    transform: scale(1.1);
+}
+
+#button-0{
+    background-color: rgba(255, 255, 255, 0.473);
+    color:white;
+    font-size: 280%;
+    border:none;
+    border-radius: 10%;
+    height: 8vh;
+    width: 21vw;
+}
+#button-0:hover{
+    transform: scale(1.1);
+    text-shadow: 0 0 5px #3D004C;
+}
+@media (max-width:1100px) {
+    .container-align{width: 45vw; height: 75vh;}
+    button{width: 12vw;}
+    #button-0{width: 25vw;}
+    .title{font-size: 250%; }
+}
+@media (max-width:950px) {
+    .container-align{width: 47vw; }
+    .container-button{column-gap: 15px;}
+}
+@media (max-width:800px) {
+    .container-align{ margin: 6% auto; width: 50vw; height: 78vh;}
+}
+@media (max-width:700px) {
+    .result{ font-size: 280%;}
+    .title{font-size: 220%;}
+    button{font-size:220% ;}
+    .container-align{ height: 75vh;}
+    #button-0{ width: 27vw}
+}
+@media (max-width:600px) {
+   .title{font-size: 200%;}
+   .container-align{ width: 54vw; height: 70vh;}
+   .container-button{column-gap: 12px; margin-bottom: 4%;}
+   button{font-size: 210%; width: 14vw; height: 7vh;}
+   #button-0{font-size: 210%; width: 31vw; height: 7vh;}
+}
+@media (max-width:500px) {
+    .title{font-size: 175%;}
+    .result{font-size: 260%;}
+    .container-align{ width: 65vw; height: 65vh;}
+    button{font-size: 180%; width: 16vw;}
+    #button-0{font-size: 180%; width: 35vw;}
+ }
+@media (max-width:400px) {
+    .title{font-size: 160%;}
+    .result{font-size: 240%;}
+    .container-button{column-gap: 10px;}
+    .container-align{ width: 72vw; height: 62vh;}
+    button{font-size: 170%;}
+    #button-0{font-size: 170%;}
+ }
+ @media (max-width:350px) {
+    .result{font-size: 140%;}
+    .container-align{height: 58vh;}
+    button{font-size: 160%; }
+    #button-0{font-size: 160%; width: 48vw;}
+ }
