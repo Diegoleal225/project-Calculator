@@ -20,7 +20,7 @@ body {
     margin: 4% auto;
     background-color: rgba(78, 78, 78, 0.336);
     width: 35vw;
-    height: 78vh;
+    height: 74vh;
 }
 .title {
     border: 0 0 1px white;
@@ -90,11 +90,11 @@ button:hover{
     .title{font-size: 250%; }
 }
 @media (max-width:950px) {
-    .container-align{width: 47vw; }
+    .container-align{width: 47vw; height: 58vh;}
     .container-button{column-gap: 15px;}
 }
 @media (max-width:800px) {
-    .container-align{ margin: 6% auto; width: 50vw; height: 78vh;}
+    .container-align{ margin: 6% auto; width: 50vw;  height: 60vh;}
 }
 @media (max-width:700px) {
     .result{ font-size: 280%;}
@@ -105,7 +105,7 @@ button:hover{
 }
 @media (max-width:600px) {
    .title{font-size: 200%;}
-   .container-align{ width: 54vw; height: 70vh;}
+   .container-align{ width: 54vw; height: 58vh;}
    .container-button{column-gap: 12px; margin-bottom: 4%;}
    button{font-size: 210%; width: 14vw; height: 7vh;}
    #button-0{font-size: 210%; width: 31vw; height: 7vh;}
@@ -113,7 +113,7 @@ button:hover{
 @media (max-width:500px) {
     .title{font-size: 175%;}
     .result{font-size: 260%;}
-    .container-align{ width: 65vw; height: 65vh;}
+    .container-align{ width: 65vw; height: 54vh;}
     button{font-size: 180%; width: 16vw;}
     #button-0{font-size: 180%; width: 35vw;}
  }
@@ -121,13 +121,14 @@ button:hover{
     .title{font-size: 160%;}
     .result{font-size: 240%;}
     .container-button{column-gap: 10px;}
-    .container-align{ width: 72vw; height: 62vh;}
+    .container-align{ width: 72vw; height: 55vh;}
     button{font-size: 170%;}
     #button-0{font-size: 170%;}
  }
  @media (max-width:350px) {
+    .title{font-size: 120%;}
     .result{font-size: 140%;}
-    .container-align{height: 58vh;}
+    .container-align{height: 52vh;}
     button{font-size: 160%; }
     #button-0{font-size: 160%; width: 48vw;}
  }
